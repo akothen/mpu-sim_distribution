@@ -20,8 +20,8 @@ docker run -it --rm xf5090717/mpu-sim
 # and configure $PYTHONPATH
 
 cd ${HOME}
-git clone https://github.com/GD06/MPU-Sim.git
-echo "export PYTHONPATH=${HOME}/MPU-Sim" >> ~/.bashrc
+git clone https://github.com/akothen/mpu-sim_distribution.git
+echo "export PYTHONPATH=${HOME}/mpu-sim_distribution" >> ~/.bashrc
 
 
 # Finally, validate your installation by running presubmit checks:
